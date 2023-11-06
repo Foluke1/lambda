@@ -2,82 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>spacewalkers</title>
     <style>
-      
+       
+        
 ol li{
     display: inline-block;
     margin-right: 140px;
     position: relative;
-    left: 158px;
-    margin-bottom:40px; 
+    left: 158px; 
 }
-    @media screen and(max-width:576px){
-        ol li{
-            left:120px;
-        }
-        
-    }
     .flexbox{
-        display: flex;
         gap:5rem;
-    }
-    @media screen  and (max-width:576px){
-        .flexbox{
-            margin-left:0;
-        }
-
-        
+        min-height: 50vh;
     }
     .flex{
         display: flex;
         gap: 7rem;
-    }
-    @media screen and (max-width:576px) {
-        .flex{
-            margin-left:0;
-        }
-        
+        min-height: 50vh;
     }
     .main{
-        margin-right: 100px;
-        margin-left: 70px;
         flex-wrap: nowrap;
-    }
-    @media screen and (max-width:576px){
-        .main{
-            width:600px;
-            position: relative;
-            left: -5px;
-        }
+        min-height: 50vh;
     }
     .body{
         display: flex;
+        min-height: 50vh;
     }
     .image1{
         flex: 60%;
-    }
-    @media screen and(max-width:576px){
-        .image1{
-            width:600px;
-        }
+        min-height: 50vh;
     }
     .flextext{
         width:80%;
-    }
-    @media screen and(max-width:576px) {
-         .flextext{
-            margin-left:0;
-
-         }      
+        min-height: 50vh;
     }
     .footer{
         text-align: center;
         background-color:grey;
         height: 55px;
         border-radius: 5px;
-        padding-bottom: 10px;}
+        padding-bottom: 10px;
+    }
+    @media (min-width:900px){
+            body{
+                height: 100vh;
+
+            }
+                   
+        
+ol li{
+    display: inline-block;
+    margin-right: 140px;
+    position: relative;
+    left: 158px; 
+}
+    .flexbox{
+        gap:5rem;
+        min-height: 50vh;
+        margin-left:60px;
+    }
+    .flex{
+        display: flex;
+        gap: 7rem;
+        min-height: 50vh;
+        margin-left: 50px;
+    }
+    .main{
+        flex-wrap: nowrap;
+        min-height: 50vh;
+        margin-left: 50px;
+
+        }
+    
     </style>
 </head>
 <body>
@@ -93,7 +91,7 @@ ol li{
         </ol>
     </nav>
     <div id="right">
-    <img src="planet1.jpg" width="1200px" margin-left:40px; margin-top:70px;>
+    <img src="planet1.jpg" width="1100px" margin-left:40px; margin-top:70px; min-height:50vh>
     </div>
     <h3 style="font-size: larger;">Lift Off</h3>
     <p> As we got further and further away,it [the Earth] diminished in size. Finally it shrank to the size of a marble,the most beautiful you can imagine. That beautiful,warm,living<br> object looked so fragile,so<br>delicate that if you touched it with a finger it would fall apart.Seeing this has to change a man.</p>
@@ -106,7 +104,7 @@ ol li{
         </div>
         </div>
     </div>
-    <h4>Can We Visit Planets?</h4>
+    <h4>Can We Visit Planets?</h4
     <p>Never in all their history have men been able to truly conceive of the world as one:a single sphere,a globe,having the qualities of a globe,a round earth in which all the directions eventually meet.<br><br>Which there is no center because every point,or none, is center-an equal earth which all men occupy as equals. The airman's earth,if free men make it. </p>
     <hr>
     <div class="body">
